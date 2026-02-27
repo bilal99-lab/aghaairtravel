@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AAT Portal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Portal CSS -->
+    <link rel="stylesheet" href="css/portal.css">
+</head>
+
+<body>
+
+    <div class="login-wrapper">
+        <div class="card login-card">
+            <div class="login-header">
+                <h2>AAT Portal</h2>
+                <p class="text-muted">Single-User Travel ERP System</p>
+            </div>
+
+            <form action="dashboard.html" method="GET">
+                <div class="form-group">
+                    <label class="form-label" for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="admin@aghaairtravel.com" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Enter secure password"
+                        required>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Secure Login</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
